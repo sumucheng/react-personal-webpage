@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-personal-webpage/build/static/css/main.005dc1a0.chunk.css",
+    "main.js": "/react-personal-webpage/build/static/js/main.615f5a06.chunk.js",
+    "main.js.map": "/react-personal-webpage/build/static/js/main.615f5a06.chunk.js.map",
+    "runtime-main.js": "/react-personal-webpage/build/static/js/runtime-main.39fce5f5.js",
+    "runtime-main.js.map": "/react-personal-webpage/build/static/js/runtime-main.39fce5f5.js.map",
+    "static/js/2.ab465a33.chunk.js": "/react-personal-webpage/build/static/js/2.ab465a33.chunk.js",
+    "static/js/2.ab465a33.chunk.js.map": "/react-personal-webpage/build/static/js/2.ab465a33.chunk.js.map",
+    "index.html": "/react-personal-webpage/build/index.html",
+    "precache-manifest.54d557e4e4e87c7dc910fc7e113cc348.js": "/react-personal-webpage/build/precache-manifest.54d557e4e4e87c7dc910fc7e113cc348.js",
+    "service-worker.js": "/react-personal-webpage/build/service-worker.js",
+    "static/css/main.005dc1a0.chunk.css.map": "/react-personal-webpage/build/static/css/main.005dc1a0.chunk.css.map",
+    "static/media/calculator.png": "/react-personal-webpage/build/static/media/calculator.dadb40b8.png",
+    "static/media/pomodoro.png": "/react-personal-webpage/build/static/media/pomodoro.efe9ae39.png",
+    "static/media/react.png": "/react-personal-webpage/build/static/media/react.df9d9424.png",
+    "static/media/tictactoe.png": "/react-personal-webpage/build/static/media/tictactoe.fc36ef0d.png",
+    "static/media/vue.png": "/react-personal-webpage/build/static/media/vue.fac4e8fa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39fce5f5.js",
+    "static/js/2.ab465a33.chunk.js",
+    "static/css/main.005dc1a0.chunk.css",
+    "static/js/main.615f5a06.chunk.js"
+  ]
+}

@@ -39,6 +39,15 @@ body{
   background: rgb(35, 35, 35);
   color:white;
 }
+h1{
+  font-size: 70px;
+  margin:10px;
+  font-family: 'Poppins', sans-serif;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+}
+
 /* navbar */
 #navbar{
   height:100vh;
@@ -52,6 +61,7 @@ body{
   justify-content: center;
   text-align: center;
 }
+
 #navbar li{
   margin-bottom: 3em;
   font-size: 20px;
@@ -65,7 +75,26 @@ body{
 }
 #navbar li a:hover{
   color:palevioletred; 
-    font-weight: bolder;
+  font-weight: bolder;
+}
+@media (max-width: 400px) {
+  #navbar {
+    width:100vw;
+    height: 7%;
+    background: rgb(35, 35, 35);
+  }
+  #navbar ul{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #navbar li{
+    margin-bottom: 0;
+  }
+  #navbar li:hover{
+    transform: none;
+  }
 }
 /* welcome */
 #main{
@@ -73,7 +102,6 @@ body{
   left: 15%;
   width: 85%;
 }
-
 #welcome {
   display: flex;
   flex-direction: column;
@@ -81,15 +109,19 @@ body{
   align-items: center;
   height: 100vh;
 }
-#welcome >h1{
-  font-size: 70px;
-  margin:10px;
-  font-family: 'Poppins', sans-serif;
-}
 #welcome >p{
   font-size: 20px;
   font-style: italic;
   color:palevioletred; 
+}
+@media (max-width: 400px) {
+  #main{
+    position: relative;
+    top:15%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 /* projects */
 /* #main *{
@@ -103,12 +135,19 @@ body{
 }
 
 .projects-header{
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   text-align: center;
   border-bottom: 2px solid; 
+  padding: 5px;
   margin: 55px auto ;
-  max-width: 18em;
+  max-width: 16em;
+}
+@media (max-width: 400px) {
+  .projects-header{
+    font-size: 40px;
+    margin: 25px auto ;
+  }
 }
 .projects-grid{
   display: grid;
@@ -154,12 +193,14 @@ body{
   padding: 8px;
   border-radius: 5px;
   background: pink;
-  color:palevioletred
+  color:palevioletred;
+  transition: background 0.3s ease-out;
 }
 .show-all:hover{
   background: palevioletred;
   color: white;
 }
+
 /* contact */
 #contact{
   display: flex;
@@ -181,4 +222,26 @@ body{
   position: relative;
   top:1px;
   right:3px;
+}
+@media (max-width: 400px) {
+  #contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 150px;
+  }
+  #contact >div{
+    display: flex;
+    flex-direction: initial;
+  }
+  .contact-info{
+    font-size: 15px;
+    font-weight: initial;
+    text-align: start;
+    margin:10px ;
+  }
+  .contact-content{
+    margin: 10px;
+  }
 }

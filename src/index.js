@@ -9,8 +9,9 @@ function App() {
     { name: 'calculator', displayName: '计算器', image: require("./img/calculator.png"), url: "http://chenyiran.top/react-calculator/build/index.html" },
     { name: 'pomodoro', displayName: '番茄钟', image: require("./img/pomodoro.png"), url: "http://chenyiran.top/react-pomodoro/build/index.html" },
     { name: 'tictactoe', displayName: '井字棋', image: require("./img/tictactoe.png"), url: "http://chenyiran.top/tic-tac-toe/build/index.html" },
-    { name: 'react', displayName: 'React文档示例', image: require("./img/react.png"), url: "http://chenyiran.top/React-Docs-examples/build/index.html" },
-    { name: 'vue', displayName: 'Vue文档示例', image: require("./img/vue.png"), url: "http://chenyiran.top/Vue-Docs-Examples/dist/index.html" },
+    { name: 'react', displayName: 'React文档知识点示例', image: require("./img/react.png"), url: "http://chenyiran.top/React-Docs-examples/build/index.html" },
+    { name: 'vue', displayName: 'Vue文档知识点示例', image: require("./img/vue.png"), url: "http://chenyiran.top/Vue-Docs-Examples/dist/index.html" },
+    { name: 'sketch', displayName: 'canvas小画板', image: require("./img/sketch.png"), url: "http://chenyiran.top/sketchpad-demo/" },
   ]
   const contact = [
     { name: 'github', displayName: "GitHub", url: "https://github.com/sumucheng" },
@@ -45,7 +46,10 @@ function App() {
             )}
           </div>
           <div className="projects-show-all">
-            <a href="https://github.com/sumucheng" target="_black" className="show-all">Show All</a>
+            <a href="https://github.com/sumucheng" target="_black" className="show-all">
+              Show All
+
+            </a>
           </div>
         </div>
 
@@ -60,7 +64,7 @@ function App() {
                   <a href={item.url} target="_blank" >{item.displayName}</a>
                   : item.displayName}
               </div>
-              {item.content && <div>{item.content}</div>}
+              {item.content && <div className="contact-content">{item.content}</div>}
             </div>
           )}
         </div>
